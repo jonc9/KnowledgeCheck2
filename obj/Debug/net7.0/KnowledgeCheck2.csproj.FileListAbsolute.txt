@@ -1,0 +1,15 @@
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\obj\Debug\net7.0\KnowledgeCheck2.csproj.AssemblyReference.cache
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\obj\Debug\net7.0\KnowledgeCheck2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\obj\Debug\net7.0\KnowledgeCheck2.AssemblyInfoInputs.cache
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\obj\Debug\net7.0\KnowledgeCheck2.AssemblyInfo.cs
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\obj\Debug\net7.0\KnowledgeCheck2.csproj.CoreCompileInputs.cache
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\bin\Debug\net7.0\KnowledgeCheck2.exe
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\bin\Debug\net7.0\KnowledgeCheck2.deps.json
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\bin\Debug\net7.0\KnowledgeCheck2.runtimeconfig.json
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\bin\Debug\net7.0\KnowledgeCheck2.dll
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\bin\Debug\net7.0\KnowledgeCheck2.pdb
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\obj\Debug\net7.0\KnowledgeCheck2.dll
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\obj\Debug\net7.0\refint\KnowledgeCheck2.dll
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\obj\Debug\net7.0\KnowledgeCheck2.pdb
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\obj\Debug\net7.0\KnowledgeCheck2.genruntimeconfig.cache
+C:\Users\JonC\Desktop\CODE_LOUISVILLE\SoftwareKnowledgeCheck\Software1-Knowledge-Check-2\obj\Debug\net7.0\ref\KnowledgeCheck2.dll
