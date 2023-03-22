@@ -9,7 +9,7 @@ namespace KnowledgeCheck2
 {
     public class MyShoes : Shoes
     {
-        public string? BrandName;
+        public string BrandName;
     }
 }
         //public decimal Size;

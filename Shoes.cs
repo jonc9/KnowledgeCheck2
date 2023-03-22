@@ -9,7 +9,7 @@ namespace KnowledgeCheck2
 {
     public class Shoes
     {
-        public decimal Size;
+        public double Size;
         //public string Type;
     }
 }

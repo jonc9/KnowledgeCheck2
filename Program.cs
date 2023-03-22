@@ -1,4 +1,6 @@
-﻿using KnowledgeCheck2;
+﻿using System.Collections.Generic;
+using System.Linq;
+using KnowledgeCheck2;
 
 namespace KnowledgeCheck2
 {
@@ -28,8 +30,8 @@ namespace KnowledgeCheck2
             else
             {
                 Console.WriteLine("You didn't enter a valid command. Please try again: How many pairs of shoes do you own/want to add?");
-            }*/   
-            
+            }*/
+
 
             var recordList = new List<MyShoes>();
             for (int i = 0; i < numberOfRecords; i++)
@@ -39,22 +41,26 @@ namespace KnowledgeCheck2
 
                 Console.WriteLine("Enter brand of the shoe(s) you are adding:");
                 myShoes.BrandName = Console.ReadLine();
+                //recordList.Add(myShoes);
                 Console.WriteLine("You entered " + myShoes.BrandName + " Thank you.");
 
                 Console.WriteLine("Enter the shoe size:");
                 myShoes.Size = int.Parse(Console.ReadLine());
-                Console.WriteLine("You entered " + myShoes.Size + " Thank you.");
-                
                 recordList.Add(myShoes);
-                continue;
+
+                Console.WriteLine("You entered " + myShoes.Size + " Thank you.");
+
+                Console.WriteLine("Here is a list of shoes you entered:");
+                Console.WriteLine(recordList);
+
+                // Print out the list of records using Console.WriteLine()
+                
             }
-            foreach (var i in recordList)
+            for (int i = 0; 1 < numberOfRecords; i++)
             {
-                Console.WriteLine(i);
-            } 
-            // Print out the list of records using Console.WriteLine()
+                Console.WriteLine(recordList);
 
+            }
         }
-
     }
 }
