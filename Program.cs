@@ -4,7 +4,7 @@ using KnowledgeCheck2;
 
 namespace KnowledgeCheck2
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
