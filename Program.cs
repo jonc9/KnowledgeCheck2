@@ -44,23 +44,24 @@ namespace KnowledgeCheck2
                 //recordList.Add(myShoes);
                 Console.WriteLine("You entered " + myShoes.BrandName + " Thank you.");
 
-                Console.WriteLine("Enter the shoe size:");
+                Console.WriteLine("Enter the shoe size::");
                 myShoes.Size = int.Parse(Console.ReadLine());
                 recordList.Add(myShoes);
 
                 Console.WriteLine("You entered " + myShoes.Size + " Thank you.");
 
-                Console.WriteLine("Here is a list of shoes you entered:");
-                Console.WriteLine(recordList);
+                //Console.WriteLine("Here is a list of shoes you entered:");
+                //Console.WriteLine(recordList);
 
                 // Print out the list of records using Console.WriteLine()
-                
-            }
-            for (int i = 0; 1 < numberOfRecords; i++)
-            {
-                Console.WriteLine(recordList);
+                Console.WriteLine($"Here are the shoes you entered, brand first, followed by size: {myShoes.BrandName} | {myShoes.Size}");
 
             }
+            /*for (int i = 0; 1 < numberOfRecords; i++)
+            {
+                Console.WriteLine($"Test Test {numberOfRecords.ToString()}");
+
+            }*/
         }
     }
 }
