@@ -11,5 +11,7 @@ namespace KnowledgeCheck2
     {
         public double Size;
         //public string Type;
+        /*I left the line above in because I originally thought to include if the shoes are dress shoes, flats, heels, sneakers,
+        running shoes and so on and may come back to this application and add it to my main program.*/
     }
 }
