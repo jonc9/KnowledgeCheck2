@@ -10,7 +10,41 @@ namespace KnowledgeCheck2
         { //Due to me owning a few pairs of shoes I thought a simple application for the shoes I own would be good to practice.
             Console.WriteLine("How many pairs of shoes do you own/want to add?");
             var numberOfRecords = int.Parse(Console.ReadLine());
-            
+
+            int ifZero;
+
+            if (int.TryParse(numberOfRecords.ToString().ToLower(), out ifZero))
+            {
+                switch (numberOfRecords.ToString().ToLower())
+                {
+                    case "zero":
+                        Console.WriteLine("You entered " + numberOfRecords + ", please enter a non-zero number.");
+                        break;
+                }
+            }
+
+
+
+            /*return Console.WriteLine("You entered " + ifZero + ".");
+
+
+
+            else if (ifZero = Zero)
+            {
+                return Console.WriteLine("You entered " + ifZero + ".");
+
+            }
+            else if (ifZero == "0")
+            {
+                Console.WriteLine("You entered " + ifZero + ".");
+                return;
+            }
+            else
+            {
+                Console.WriteLine("You didn't enter a valid command. Please try again: How many pairs of shoes do you own/want to add?");
+            }*/
+
+
 
             var recordList = new List<MyShoes>();
             for (int i = 0; i < numberOfRecords; i++)
