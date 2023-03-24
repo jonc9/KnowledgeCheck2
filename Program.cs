@@ -11,9 +11,9 @@ namespace KnowledgeCheck2
             Console.WriteLine("How many pairs of shoes do you own/want to add?");
             var numberOfRecords = int.Parse(Console.ReadLine());
 
-            int ifZero;
+            //int ifZero;
 
-            if (int.TryParse(numberOfRecords.ToString().ToLower(), out ifZero))
+            while (Convert.ToString(numberOfRecords) is "zero")
             {
                 switch (numberOfRecords.ToString().ToLower())
                 {
