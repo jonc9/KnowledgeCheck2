@@ -10,28 +10,7 @@ namespace KnowledgeCheck2
         { //Due to me owning a few pairs of shoes I thought a simple application for the shoes I own would be good to practice.
             Console.WriteLine("How many pairs of shoes do you own/want to add?");
             var numberOfRecords = int.Parse(Console.ReadLine());
-
-            /*var ifZero = Console.ReadLine();
-            if (ifZero == "zero")
-            {
-                Console.WriteLine("You entered " + ifZero + ".");
-            }
-
-            else if (ifZero == "Zero")
-            {
-                Console.WriteLine("You entered " + ifZero + ".");
-                return;
-            }
-            else if (ifZero == "0")
-            {
-                Console.WriteLine("You entered " + ifZero + ".");
-                return;
-            }
-            else
-            {
-                Console.WriteLine("You didn't enter a valid command. Please try again: How many pairs of shoes do you own/want to add?");
-            }*/
-
+            
 
             var recordList = new List<MyShoes>();
             for (int i = 0; i < numberOfRecords; i++)
@@ -45,7 +24,7 @@ namespace KnowledgeCheck2
                 myShoes.BrandName = Console.ReadLine();
                 
                 //I like the idea of the application telling you what you just did:
-                Console.WriteLine("You entered " + myShoes.BrandName + " Thank you."); 
+                Console.WriteLine("You entered " + myShoes.BrandName + "." + " Thank you."); 
 
                 //The shoe size prompt part of the application
                 Console.WriteLine("Enter the shoe size:");
@@ -55,7 +34,7 @@ namespace KnowledgeCheck2
                 recordList.Add(myShoes);
 
                 //Again the application telling you what you entered.
-                Console.WriteLine("You entered " + myShoes.Size + " Thank you.");
+                Console.WriteLine("You entered " + myShoes.Size + "." + " Thank you.");
 
                 // Print out the list of records using Console.WriteLine()
                 // Below displays to the user their entries:
